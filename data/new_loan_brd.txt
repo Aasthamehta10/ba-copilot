@@ -1,0 +1,20 @@
+BUSINESS REQUIREMENTS DOCUMENT: Digital Loan Approval Platform (Version 2.0, 2025)
+
+1. Objective
+Replace the manual loan approval process with an online platform to reduce turnaround time.
+
+2. Eligibility Requirements
+BR-01: The system shall accept applicants aged 21 to 65.
+BR-02: The system shall require a minimum credit score of 650.
+BR-03: Self-employed applicants shall be allowed to apply, with 2 years of business tax returns.
+
+3. Approval Workflow
+BR-04: The system shall auto-approve loans up to 3 lakh.
+BR-05: Loans between 3 lakh and 10 lakh shall be routed to the branch manager.
+BR-06: Loans above 10 lakh shall be routed to the regional credit committee.
+
+4. Service Levels
+BR-07: Every application shall be processed within 5 working days.
+
+5. Documents
+BR-08: Applicants shall upload identity proof, address proof, and 3 months of bank statements.
