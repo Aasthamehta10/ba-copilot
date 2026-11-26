@@ -29,3 +29,12 @@ def search(query: str, k: int = 3) -> list[dict]:
             result["documents"][0], result["metadatas"][0], result["distances"][0]
         )
     ]
+
+
+
+def get_all_chunks() -> list[dict]:
+    result = collection.get()
+    return [
+        {"text": doc, "source": meta["source"]}
+        for doc, meta in zip(result["documents"], result["metadatas"])
+    ]
